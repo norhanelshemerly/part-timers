@@ -560,21 +560,122 @@ background-position: 50% 50%;
 height: 200px;
 margin-bottom: 40px;
 }
+.imageHeaderSignUp{
+	background-image: url('../images/SignUpBg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	height: 200px;
+}
+.CreateAcountContent{
+	background-color: #f4f2f2;
+	width: 430px;
+	padding-bottom: 20px;
+	border-radius: 5px;
+	margin-top: 90px;
+}
+.CreateAcountContent h2{
+	color: #191d3d;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 20px;
+}
+.CreateAcountContent img{
+  margin-top: -70px;
+  margin-left: 135px;
+}
+.CreateAcountContent hr{
+	display: inline-block;
+  border-top: 1px solid #12aaeb;
+  width: 30px;
+  margin-left: 65px;
+  margin-top: 10px;
+}
+.CreateAcountContent h3, .CreateAcountContent label {
+	color: #191d3d;
+	font-size: 13px;
+	margin-top: 10px;
+}
+.CreateAcountContent a{
+  color: #00aaeb;
+  font-size: 11px;
+}
+.NameCreateFields input{
+	font-size: 12px;
+  margin: 10px -5px;
+  width: 100%;
+  border-radius: 5px;
+  color: #767676;
+  padding: 7px 10px;
+  border: 1px solid #cccccc;
+}
+.CreateAcountContent input{
+	   font-size: 12px;
+    margin: 10px -5px;
+    border-radius: 5px;
+    color: #767676;
+    padding: 7px 10px;
+    border: 1px solid #cccccc;
+}
+ .CreateAcountContent .checkboxsignup{
+ 	margin-right: 10px;
+ }
+ .CreateAcountContent .button1{
+ 	  width: 100%;
+    padding: 7px 10px;
+    background-color: #12aaeb;
+    border-radius: 5px;
+ border: 1px solid #12aaeb;
+    font-size: 14px;
+    margin-top: 5px;
+ }
+.CreateAcountContent .button1:hover{
+ border: 1px solid #12aaeb;
+    background-color: #ffffff;
+    color: #12aaeb;
+}
 
+.loginSeparator {
+  text-align: center;
+}
 
+.loginSeparator span{
+display: inline-block;
+background-color: #f4f2f2;
+color: #191d3d;
+padding: 10px;
+margin: 18px 0 0 0;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.loginSeparator hr {
+  display: block;
+  height: 1px;
+  width: 100%;
+  margin: -20px 0 0 0;
+  color:#cccccc;
+}
+ .CreateAcountContent .button2{
+    width: 100%;
+    padding: 7px 10px;
+    background-color: #3b5998;
+    border-radius: 5px;
+    border: 1px solid #3b5998;
+    font-size: 14px;
+    margin-top:30px;
+ }
+ .CreateAcountContent i {
+  margin-right: 10px;
+ }
+.CreateAcountContent h6{
+  color: #717171;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 20px;
+  margin-bottom: 0;
+}
 
 /* style it --Mobile View--*/
 @media screen and (max-width: 767px) {
